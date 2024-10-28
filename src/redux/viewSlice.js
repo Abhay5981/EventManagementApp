@@ -10,9 +10,7 @@ const viewSlice = createSlice({
     toggleDashboard: (state) => {
       state.isDashboardOpen = !state.isDashboardOpen;
     },
-    setActivePage: (state, action) =>{
-      state.activePage = action.payload
-    }
+   
   },
 });
 
