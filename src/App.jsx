@@ -25,7 +25,7 @@ function App() {
         <Route path="/all-sponsors" element={<AllSponsors />} />
         <Route path="/settings" element={<Setting />} />
         <Route path="/profile" element={<Profile />} />
-</Routes>
+      </Routes>
       </div>
     </Router>
   );
