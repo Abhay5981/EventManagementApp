@@ -1,0 +1,70 @@
+.home-page {
+  background: url('/public/home.jpg') no-repeat center center;
+  background-size: cover;
+  color: #ffffff;
+  padding: 50px;
+  text-align: center;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.explore-button {
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  background-color: #ff7e00;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.explore-button:hover {
+  background-color: #ff5000;
+}
+
+.featured-events {
+  margin-top: 3rem;
+}
+
+.featured-events h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.events-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.event-card {
+  width: 200px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  padding: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.event-card:hover {
+  transform: scale(1.05);
+}
+
+.event-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}

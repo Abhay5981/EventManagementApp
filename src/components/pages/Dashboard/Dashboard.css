@@ -1,0 +1,28 @@
+/* Center the entire dashboard */
+
+.dashboard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+  }
+  
+  .dashboard-content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .summary-grid {
+    margin-bottom: 2rem;
+  }
+  
+  .event-grid {
+    margin-top: 2rem;
+  }
+  
+  .upcoming-events-section, .past-events-section {
+    padding: 1rem;
+  }
+  

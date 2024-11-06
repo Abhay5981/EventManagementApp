@@ -24,7 +24,7 @@ const AddEvent = () => {
   };
 
   return (
-    <div className="flex justify-center items-center  mt-24">
+    <div className="flex justify-center items-center  mt-24 ">
       <div className="p-8 bg-gray-200 rounded-lg shadow-lg w-full max-w-lg">
         <h1 className="text-3xl font-bold mb-6 text-center">Add Event</h1>
         <form onSubmit={handleSubmit} className="space-y-6">
